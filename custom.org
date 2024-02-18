@@ -62,4 +62,9 @@
 #+BEGIN_SRC emacs-lisp
   (global-visual-line-mode 1)
 #+END_SRC
-
+*** Line numbers
+;; Options: visual, relative
+#+BEGIN_SRC emacs-lisp
+  (setq display-line-numbers-type 'relative)
+  (global-display-line-numbers-mode 1)
+#+END_SRC
