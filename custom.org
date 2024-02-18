@@ -57,3 +57,9 @@
   (multiple-cursors-mode 1)
    (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
 #+end_src
+** Behavior
+*** Word wrap
+#+BEGIN_SRC emacs-lisp
+  (global-visual-line-mode 1)
+#+END_SRC
+
