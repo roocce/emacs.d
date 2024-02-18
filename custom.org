@@ -97,3 +97,7 @@
   (setq org-clock-persist 'history)
   (org-clock-persistence-insinuate)
 #+end_src
+** Capture
+#+BEGIN_SRC emacs-lisp
+  (global-set-key (kbd "C-c c") #'org-capture)
+#+END_SRC
