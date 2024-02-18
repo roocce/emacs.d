@@ -142,3 +142,8 @@
     :config
     (pyvenv-mode t))
 #+end_src
+** yasnippet
+#+begin_src emacs-lisp
+  (use-package yasnippet
+    :ensure t)
+#+end_src
