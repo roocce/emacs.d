@@ -172,3 +172,14 @@
     :config
     (which-key-mode))
 #+end_src
+** Flymake
+*** Show buffer diagnostics
+#+begin_src emacs-lisp
+  (use-package flymake
+    :ensure t)
+
+  (add-hook 'flymake-mode-hook
+	  (lambda ()
+	    (keymap-set flymake-mode-map "<f7>"
+			'flymake-show-buffer-diagnostics)))
+#+end_src
