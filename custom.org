@@ -88,3 +88,7 @@
 #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "C-c l") #'org-store-link)
 #+END_SRC
+** Agenda
+#+BEGIN_SRC emacs-lisp
+  (global-set-key (kbd "C-c a") #'org-agenda)
+#+END_SRC
