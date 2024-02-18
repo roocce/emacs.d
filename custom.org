@@ -28,3 +28,10 @@
   (setq display-fill-column-indicator-column 80)
   (global-display-fill-column-indicator-mode 1)
 #+end_src
+** Behavior
+*** Buffer movement
+#+begin_src emacs-lisp
+  (global-set-key (kbd "C-x O") #'previous-window-any-frame)
+  (global-set-key (kbd "C-x <") #'previous-buffer)
+  (global-set-key (kbd "C-x >") #'next-buffer)
+#+end_src
