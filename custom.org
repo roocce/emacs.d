@@ -92,3 +92,8 @@
 #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "C-c a") #'org-agenda)
 #+END_SRC
+*** Clock
+#+begin_src emacs-lisp
+  (setq org-clock-persist 'history)
+  (org-clock-persistence-insinuate)
+#+end_src
