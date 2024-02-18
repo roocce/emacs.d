@@ -128,3 +128,9 @@
     :ensure t)
   (marginalia-mode 1)
 #+end_src
+** Beacon
+#+begin_src emacs-lisp
+  (use-package beacon
+	       :ensure t)
+  (beacon-mode 1)
+#+end_src
