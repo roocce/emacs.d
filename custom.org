@@ -134,3 +134,11 @@
 	       :ensure t)
   (beacon-mode 1)
 #+end_src
+** Python
+*** pyvenv
+#+begin_src emacs-lisp
+  (use-package pyvenv
+    :ensure t
+    :config
+    (pyvenv-mode t))
+#+end_src
