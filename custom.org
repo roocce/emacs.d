@@ -1,2 +1,8 @@
 #+title: Emacs Configuration File
 #+author: Rodolfo Ochoa Cetina
+* Editor
+** UI items
+*** Turn menu bar off
+#+begin_src emacs-lisp
+  (menu-bar-mode -1)
+#+end_src
