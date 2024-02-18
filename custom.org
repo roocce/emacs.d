@@ -6,3 +6,7 @@
 #+begin_src emacs-lisp
   (menu-bar-mode -1)
 #+end_src
+*** Turn toolbar off
+#+begin_src emacs-lisp
+  (tool-bar-mode -1)
+#+end_src
