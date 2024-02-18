@@ -48,3 +48,7 @@
   (ido-mode 1)
   (ido-vertical-mode 1)
 #+end_src
+*** Lockfiles
+#+BEGIN_SRC emacs-lisp
+  (setq create-lockfiles -1)
+#+END_SRC
