@@ -83,3 +83,8 @@
 #+BEGIN_SRC emacs-lisp
   (recentf-mode 1)
 #+END_SRC
+* ORG mode
+** Store links
+#+BEGIN_SRC emacs-lisp
+  (global-set-key (kbd "C-c l") #'org-store-link)
+#+END_SRC
