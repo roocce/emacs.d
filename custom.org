@@ -52,3 +52,8 @@
 #+BEGIN_SRC emacs-lisp
   (setq create-lockfiles -1)
 #+END_SRC
+*** Multiple cursors
+#+begin_src emacs-lisp 
+  (multiple-cursors-mode 1)
+   (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+#+end_src
