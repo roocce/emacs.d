@@ -10,3 +10,7 @@
 #+begin_src emacs-lisp
   (tool-bar-mode -1)
 #+end_src
+*** Turn scroll bar off
+#+begin_src emacs-lisp
+  (scroll-bar-mode -1)
+#+end_src
