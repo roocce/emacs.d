@@ -78,3 +78,8 @@
   (global-set-key [M-S-up] 'move-text-up)
   (global-set-key [M-S-down] 'move-text-down)
 #+END_SRC
+* Workflow
+** Recent files
+#+BEGIN_SRC emacs-lisp
+  (recentf-mode 1)
+#+END_SRC
