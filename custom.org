@@ -73,3 +73,8 @@
   (global-set-key (kbd "C-+") #'text-scale-increase)
   (global-set-key (kbd "C--") #'text-scale-decrease)
 #+END_SRC
+*** Move text
+#+BEGIN_SRC emacs-lisp
+  (global-set-key [M-S-up] 'move-text-up)
+  (global-set-key [M-S-down] 'move-text-down)
+#+END_SRC
